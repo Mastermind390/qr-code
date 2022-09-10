@@ -1,0 +1,90 @@
+body {
+    font-family: 'Segoe UI', Tahoma, 
+    Geneva, Verdana, sans-serif;
+    height: 1100px;
+    padding-top: 96px;
+    padding-left: 0px;
+    background-color: rgb(230, 230, 230);
+    margin: 0;
+}
+
+.header {
+    background-color: rgb(22, 177, 58);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 25px;
+    padding-right: 25px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin: 0;
+    margin-bottom: 30px;
+    z-index: 200;
+}
+
+.folder {
+    margin-right: 20px;
+}
+
+.all {
+    font-size: large;
+    font-weight: bolder;
+    color: white;
+}
+
+.header1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 60px;
+    right: 0;
+    left: 0;
+    padding-left: 25px;
+    padding-right: 25px;
+    height: 35px;
+    background-color: white;
+    z-index: 100;
+}
+
+.header1 a {
+    text-decoration: none;
+    color: black;
+}
+
+.headline1 {
+    position: relative;
+}
+
+.header-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom {
+    display: none;
+    position: absolute;
+    background-color: rgb(22, 177, 58);
+    bottom: 0;
+    height: 4px;
+    width: 64px;
+    z-index: 1;
+}
+
+.header-link {
+    cursor: pointer;
+}
+
+.header-link:hover a {
+    color: rgb(22, 177, 58);
+}
+
+.header-link:hover .bottom {
+    color: rgb(22, 177, 58);
+    display: block;
+}

@@ -1,0 +1,242 @@
+.Trending-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+.fire {
+    height: 50px;
+    margin-right: 7px;
+}
+
+.trendi {
+    font-weight: bolder;
+   margin-right: 7px;
+}
+
+.top-news {
+    color: grey;
+}
+
+.all-news {
+    background-color: white;
+    padding-top: 1px;
+    display: flex;
+    flex-direction: column;
+    height: 510px;
+    flex: 0.6;
+    margin-right: 10px;
+    flex: 2;
+}
+
+.poster {
+    margin-left: 10px;
+    color: rgb(97, 97, 97);
+}
+
+.laport {
+    position: relative;
+    height: 600px;
+    width: 432px;
+}
+
+.laporta {
+    height: 420px;
+    margin-left: 10px;
+}
+
+.comment {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    position: absolute;
+    right: 0;
+    align-items: center;
+}
+
+.comm {
+    height: 30px;
+}
+
+.comment-num {
+    margin: 0;
+    color: rgb(22, 177, 58);
+}
+
+.news-container {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.all-news2 {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 805px;
+    flex: 1;
+    position: relative;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+
+.comment-by {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(245, 245, 245);
+    padding-top: 10px;
+    flex: 1;
+}
+
+.comment-by2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align
+}
+
+
+.profile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.profile-pic {
+    width: 70px;
+    height: 70px;
+    border-radius: 70px;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+.commen {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.comm-num {
+    margin-right: 10px;
+    font-size: large;
+    color: rgb(255, 177, 81);
+}
+
+.like {
+    height: 40px;
+}
+
+.one-day {
+    margin-left: 20px;
+    font-size: larger;
+    color: gray;
+    margin: 0;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.ben {
+    color: gray;
+}
+
+.comment-buy {
+    background-color: white;
+    height: 170px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(197, 197, 197);
+    
+}
+
+.dark-mode {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.dark {
+    height: 120%;
+    margin-right: 50px;
+}
+
+.check {
+    padding-top: 10px;
+}
+
+.checkout {
+    font-size: large;
+    margin: 0;
+}
+
+.trend {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.com {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.dark-border {
+    border-bottom: 1px solid rgb(197, 197, 197);
+}
+
+.num {
+    color: rgb(22, 177, 58);
+    margin-right: 5px;
+}
+
+.all-trending-news {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-bottom: 1px solid rgb(197, 197, 197);
+    border-top: 1px solid rgb(197, 197, 197);
+    height: 70px;
+}
+
+.news {
+    color: rgb(22, 177, 58);
+}
+
+.news-container2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 80px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.ews, .match, .tip, .stat {
+    margin: 0;
+    margin-top: 4px;
+}
+
+.barc {
+    width: 70px;
+}

@@ -1,0 +1,63 @@
+.aston {
+    display: flex;
+    flex-direction: row;
+}
+
+.epl {
+    position: relative;
+    height: 25px;
+}
+
+.bottom-border {
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(211, 211, 211);
+    height: 1px;
+    width: 240px;
+    margin-left: 10px;
+}
+
+.epl1 {
+    margin: 0;
+    margin-left: 12px;
+}
+
+.matchday {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    width: 230px;
+    height: 100px;
+}
+
+.Astonv {
+    width: 40px;
+    height: 47px;
+    margin-right: 10px;
+}
+
+.image {
+    margin-right: 30px;
+}
+
+.date{
+    font-size: 15px;
+    color: rgb(102, 102, 102);
+    text-align: right;
+}
+
+.matchday-all {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+.epl-try {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    border-right: 0.5px solid rgb(219, 219, 219);
+    margin-bottom: 10px;
+}
